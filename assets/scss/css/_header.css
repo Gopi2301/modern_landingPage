@@ -1,0 +1,26 @@
+.header {
+  padding: 1rem 15rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+.header--logo {
+  font-size: 1.5rem;
+}
+.header--menu {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+}
+.header--menu--item > a {
+  margin-right: 2rem;
+  font-size: 14px;
+  font-weight: 600;
+  color: #242424;
+}
+.header--menu--item > a:hover {
+  color: #3f43fd;
+}
+
+/*# sourceMappingURL=_header.css.map */

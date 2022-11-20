@@ -1,3 +1,9 @@
-body {
-  background-color: red;
-}
+// Abstract
+@import "./abstract/variable";
+
+// Base
+@import "./base/global";
+@import "./base/reset";
+
+// Component
+@import "./components/header";
